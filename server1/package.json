@@ -1,0 +1,23 @@
+{
+  "name": "order-service",
+  "version": "1.0.0",
+  "description": "Order Service - Microservice for handling food orders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "microservice",
+    "order",
+    "food"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
